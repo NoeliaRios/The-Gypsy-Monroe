@@ -8,6 +8,11 @@ body{
     display: flex;
     justify-content: space-around;
     align-items: center;
+    margin: 30px;
+}
+
+.burgu{
+    display: none;
 }
 
 .logo{
@@ -15,11 +20,48 @@ body{
     height: 100px;
 }
 
-.logo img{
+.logo img, .book img{
     width: 100%;
     height: auto;
 }
 
 h1{
-    margin: 30px auto;
+    font-size: 40px;
+   margin:40px auto;
+   
+}
+
+.book{
+    width: 70%;
+    margin: 20px auto;
+}
+
+.displayNone{
+    display: none;
+}
+
+.displayBlock{
+    display: block;
+}
+
+
+@media only screen and (max-width: 600px){
+
+    .burgu{
+        display: block;
+        margin-left:400px;
+        margin-top:20px;
+    }
+
+   
+
+    .navVertical{
+        display: none;
+    }
+
+    .barra{
+        display: none;
+    }
+
+
 }
