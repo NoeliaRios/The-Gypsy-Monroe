@@ -47,20 +47,21 @@ h1{
 
 @media only screen and (max-width: 600px){
 
-    .burgu{
+    #botonBurgu{
         display: block;
         margin-left:400px;
         margin-top:20px;
     }
 
-   
-
-    .navVertical{
+    .barra{
         display: none;
     }
 
-    .barra{
-        display: none;
+    #navVertical{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
     }
 
 

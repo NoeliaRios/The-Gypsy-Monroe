@@ -1,8 +1,9 @@
 var menuHamburguesa = document.getElementById('botonBurgu');
-var menuDesplegado = document.getElementsByClassName('navVertical');
+var menuDesplegado = document.getElementById('navVertical');
 
-menuHamburguesa.onclick=function(){
 
-    menuDesplegado[0].classList.add('displayBlock');
-    
+menuHamburguesa.onclick = function(){
+
+    menuDesplegado.classList.remove('displayNone');
+    menuHamburguesa.classList.add('displayNone');
 }
