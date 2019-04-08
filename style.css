@@ -28,6 +28,7 @@ body{
 h1{
     font-size: 40px;
    margin:40px auto;
+   text-align: center;
    
 }
 
@@ -44,6 +45,10 @@ h1{
     display: block;
 }
 
+#botonBurgu{
+    display: none;
+}
+
 
 @media only screen and (max-width: 600px){
 
@@ -57,11 +62,16 @@ h1{
         display: none;
     }
 
-    #navVertical{
+    /* #navVertical{
         display: flex;
         flex-direction: column;
         justify-content: space-around;
         align-items: center;
+    } */
+
+    .home, .shop, .custom, .about, .contact{       
+        text-align: center;
+        margin: 10px auto;
     }
 
 
